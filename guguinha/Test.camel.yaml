@@ -1,0 +1,13 @@
+- route:
+    id: route-3c18
+    nodePrefixId: route-629
+    from:
+      id: from-b6df
+      uri: timer
+      parameters:
+        timerName: Timer
+        period: "10000"
+      steps:
+        - log:
+            id: log-7af6
+            message: "\"Opa opa opa, estou aqui!\""
